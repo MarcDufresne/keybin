@@ -12,9 +12,9 @@ from store_api.utils import json_param
 
 app = Flask(__name__)
 
-user_model = None
-store_model = None
-token_model = None
+user_model = User()
+token_model = Token()
+store_model = Store()
 
 
 @app.route('/register', methods=['POST'])
@@ -73,7 +73,4 @@ def store_data(key, value, token):
 
 
 if __name__ == "__main__":
-    user_model = User()
-    token_model = Token()
-    store_model = Store()
     app.run(port=config.PORT, debug=config.DEBUG)

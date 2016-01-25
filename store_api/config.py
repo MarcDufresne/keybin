@@ -1,12 +1,14 @@
 from __future__ import absolute_import
 
+import os
 from functools import partial
 
 from configparser import ConfigParser
 
 
 parser = ConfigParser()
-parser.read('../store.cfg')
+path = '{}/../store.cfg'.format(os.path.dirname(os.path.realpath(__file__)))
+parser.read(path)
 get = partial(parser.get, 'STORE')
 
 

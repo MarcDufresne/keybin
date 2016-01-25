@@ -9,7 +9,7 @@ setup(
     install_requires=[
         "bcrypt==2.0.0",
         "cffi==1.5.0",
-        "configparser==3.3.0.post2",
+        "configparser==3.5.0b1",
         "Flask==0.10.1",
         "itsdangerous==0.24",
         "Jinja2==2.8",
@@ -20,4 +20,8 @@ setup(
         "Werkzeug==0.11.3",
         "wheel==0.24.0"
     ],
+    description="Generic Data Store API",
+    author="MarcDufresne",
+    author_email="marc.andre.dufresne@gmail.com",
+    url="https://github.com/MarcDufresne/keybin",
 )
