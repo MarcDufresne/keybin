@@ -1,0 +1,8 @@
+uwsgi:
+  socket: 127.0.0.1:5000
+  processes: 4
+  master: true
+  post-buffering: 4096
+  harakiri: 20
+  module: keybin.main:app
+  pythonpath: /root/keybin/
