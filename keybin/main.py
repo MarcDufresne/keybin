@@ -2,12 +2,12 @@ from __future__ import absolute_import
 
 from flask import Flask, jsonify
 
-from store_api import config
-from store_api.database.store import Store
-from store_api.database.users import User
-from store_api.database.token import Token
-from store_api.errors import error_handler
-from store_api.utils import json_param
+from keybin import config
+from keybin.database.store import Store
+from keybin.database.users import User
+from keybin.database.token import Token
+from keybin.errors import error_handler
+from keybin.utils import json_param
 
 
 app = Flask(__name__)

@@ -4,9 +4,9 @@ from uuid import uuid4
 
 import bcrypt as bcrypt
 
-from store_api import config
-from store_api.database.mongo import Mongo
-from store_api.errors import Error
+from keybin import config
+from keybin.database.mongo import Mongo
+from keybin.errors import Error
 
 
 class User:

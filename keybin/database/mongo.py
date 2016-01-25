@@ -2,7 +2,7 @@ from __future__ import absolute_import
 
 import pymongo
 
-from store_api import config
+from keybin import config
 
 
 class Mongo:

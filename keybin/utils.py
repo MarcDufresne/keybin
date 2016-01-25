@@ -2,7 +2,7 @@ from functools import wraps
 
 from flask import request
 
-from store_api.errors import Error
+from keybin.errors import Error
 
 
 class JsonParam:

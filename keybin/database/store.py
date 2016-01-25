@@ -3,9 +3,9 @@ from __future__ import absolute_import
 import re
 from functools import wraps
 
-from store_api import config
-from store_api.database.mongo import Mongo
-from store_api.errors import Error
+from keybin import config
+from keybin.database.mongo import Mongo
+from keybin.errors import Error
 
 
 def validate_key(function):
