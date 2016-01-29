@@ -9,7 +9,7 @@ setup(
     install_requires=[
         "bcrypt==2.0.0",
         "cffi==1.5.0",
-        "configparser==3.5.0b1",
+        "configparser",
         "Flask==0.10.1",
         "itsdangerous==0.24",
         "Jinja2==2.8",

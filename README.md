@@ -1,4 +1,4 @@
-# Generic Store API
+# Keybin API Server
 
 This app serves as a Generic Data Store API. All you need is a MongoDB instance.
 
@@ -124,3 +124,7 @@ characters `a-z`, `A-Z`, `0-9`, `_`, `.` and `,`.
     {
         "result": "ok"
     }
+    
+## Library
+
+[Python Keybin Client](https://github.com/MarcDufresne/keybin-client)
